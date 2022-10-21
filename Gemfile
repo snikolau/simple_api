@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
+gem 'webrick'
 
 group :development, :test do
   gem 'minitest', require: false
